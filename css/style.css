@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --primary-color: #D96C3F; /* Terracotta */
     --secondary-color: #6F7C3B; /* Olive Green */
     --accent-gold: #E8DCC8; /* neutral champagne */
     --accent-purple: #D96C3F; /* Reusing terracotta as warm accent */
     --accent-teal: #6F7C3B; /* Olive tone reused */
-    --text-dark: #4A3F35  /* Dark Brown */
+    --text-dark: #4A3F35; /* Dark Brown */
     --text-light: #6F7C3B; /* Olive */
     --bg-light: #F5E8D8; /* Beige */
     --bg-gradient-1: #D96C3F; /* Terracotta */
@@ -102,6 +103,8 @@ body {
     }
 }
 
+
+
 /* Music Control */
 .music-control {
     position: fixed;
@@ -147,6 +150,18 @@ body {
     position: relative;
     overflow: hidden;
 }
+/*.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff006e 0%, #7209b7 50%, #06a77d 100%), url('couple.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}*/
 
 .hero::before {
     content: '';
@@ -237,6 +252,7 @@ body {
     /* Smooth animation */
     animation: fadeInUp 1s ease-out 0.6s both;
 }
+
 .hero-quote {
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
